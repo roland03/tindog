@@ -1,0 +1,147 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.dog-phone-img{
+  transform: rotate(25deg);
+  margin: 3rem ;
+  width: 18%;
+  position: absolute;
+  right:19%;
+}
+body{
+  font-family:  "Montserrat", sans-serif;
+}
+h1{
+  padding-top: 3rem;
+
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+
+}
+ /* Navbar */
+ .navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: 900;
+ }
+ .navbar{
+   font-family: "Ubuntu";
+   font-size: 1.3rem;
+ }
+ .nav-item{
+   padding:0 18px;
+ }
+ .downlod-button{
+   margin-top: 1.5rem;
+   margin-right: 1rem;
+
+ }
+ #features{
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+
+ }
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+p{
+  color:#8f8f8f;
+}
+ #testimonials{
+   background-color:  #ef8172;
+   text-align: center;
+
+
+ }
+ h2{
+   font-size:2.5rem;
+   font-family: "Montserrat";
+   font-weight: 900;
+   color:white;
+ }
+ .testimonial-image{
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+   margin: 20px;
+ }
+ .carousel-item{
+   padding: 7% 15%;
+
+
+ }
+ #press{
+   background-color:  #ef8172;
+   text-align: center;
+   padding: 7% 15%;
+   margin-bottom: 20px;
+ }
+ .press-img{
+   width: 170px;
+   margin: 10px 20px 50px;
+ }
+ #pricing{
+   padding: 100px;
+   text-align: center;
+ }
+ .price-column{
+   padding: 3% 2%;
+ }
+.sing-up-button{
+  width: 100%;
+}
+.price{
+  color:black;
+}
+@media (max-width: 1054px)
+{
+  .dog-phone-img{
+    position:static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  #title{
+  text-align: center;
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 9% 18%;
+}
+.bottom-text{
+  padding-bottom: 30px;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  background-color: white;
+  padding: 4% 15%;
+  font-size: 0.9rem;
+}
+.social-media{
+  padding: 20px;
+}
