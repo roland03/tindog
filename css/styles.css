@@ -124,6 +124,11 @@ p{
   #title{
   text-align: center;
   }
+.navbar-toggler{
+width:2rem;
+
+}
+
 }
 #cta{
   text-align: center;
